@@ -1,0 +1,131 @@
+body{
+    opacity: 0.8;
+    background-color: rgb(137, 202, 240);
+    text-align: center;
+  }
+  
+  h1{
+      font-family: Copperplate, Papyrus, fantasy;
+      font-size: 100px;
+      font-weight: bold;
+      color: #1F618D;
+      text-align: center;
+  }
+  h2 {
+  
+  }
+  
+  .footer-section {
+      background-color: darkblue
+      color: lightblue;
+  }
+  
+  <!-- HEADER WRAP TEST CODE -->
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    text-align: left;
+  }
+  .wrapper {
+    width: 1170px;
+    margin: 0 auto;
+  }
+  header {
+   height: 65px;
+   background:#262626;
+   width: 100%;
+   z-index: 35;
+   position: fixed;
+  }
+  .logo {
+    width: 30%;
+    float: center;
+    line-height: 100px;
+  }
+  .logo a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Lalezar, sans-serif;
+    color: #fff;
+    letter-spacing: 5px;
+  }
+  nav{
+    float center;
+    line-height: 100px;
+  }
+  nav a{
+    text-decoration: none;
+    font-family: Lalezar, sans-serif;
+    letter-spacing: 4px;
+    font-size: 40px;
+    margin: 0 10px;
+    color: #fff;
+  }
+  .banner-area{
+    width: 100%;
+    height: 1000px;
+    position: fixed;
+    top: 75px;
+    background-image: url(./dbzwallpapertest.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+  }
+  .banner-area h2{
+    padding-top: 8%;
+    font-size: 55px;
+    font-family:  Lalezar, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .content-area{
+    width: 100%;
+    position: relative;
+    top: 900px;
+    background: #DBEBF5;
+    height: 11000px;
+  }
+  .content-area h2{
+    font-family: Alumni sans;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 80px;
+    margin: 0;
+  }
+  .content-area p{
+    padding: 2% 0;
+    font-family: merienda;
+    line-height: 30px;
+    font-size:x-large;
+  }
+  
+  <!-- HEADER WRAP TEST CODE END -->
+  
+  
+ 
+  <!-- HOVER LINK TEST -->
+  a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  a:hover {
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 #f8af27;;
+  }
+  
+  /* Presentational styles */
+  a {
+    color: #f8af27;
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+  }
+  
+  <!-- HOVER LINK END -->
