@@ -40,27 +40,22 @@ function compute(form) {
     nHighest = goku;
     sHighest = "goku";
   }
-
   if (nHighest < vegeta) {
     nHighest = vegeta;
     sHighest = "vegeta";
   }
-
   if (nHighest < bulma) {
     nHighest = bulma;
     sHighest = "bulma";
   }
-
   if (nHighest < mrSatan) {
     nHighest = mrSatan;
     sHighest = "mrSatan";
   }
-
   if (nHighest < cell) {
     nHighest = cell;
     sHighest = "cell";
   }
-
   if (nHighest < android) {
     nHighest = android;
     sHighest = "android";
@@ -69,6 +64,8 @@ function compute(form) {
   results(sHighest);
 }
 
+
+// This resets the quiz
 function resetForm() {
   location = "index.html";
   goku = 0;
@@ -79,6 +76,7 @@ function resetForm() {
   android = 0;
 }
 
+// This displays the results
 function results(sHighest) {
   switch (sHighest) {
     case "goku":
