@@ -101,3 +101,4 @@ function results(sHighest) {
       location = "index.html";
   }
 }
+TEST
