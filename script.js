@@ -137,31 +137,31 @@ function result6() {
 
 //This determines which character has the highest increment
 function compute() {
-  let nHighest  = 0;
+  let nHighest = 0;
   let sHighest;
 
-  if (nHighest  < goku) {
-    nHighest  = goku;
+  if (nHighest < goku) {
+    nHighest = goku;
     sHighest = "goku";
   }
-  if (nHighest  < vegeta) {
-    nHighest  = vegeta;
+  if (nHighest < vegeta) {
+    nHighest = vegeta;
     sHighest = "vegeta";
   }
-  if (nHighest  < bulma) {
-    nHighest  = bulma;
+  if (nHighest < bulma) {
+    nHighest = bulma;
     sHighest = "bulma";
   }
-  if (nHighest  < mrSatan) {
-    nHighest  = mrSatan;
+  if (nHighest < mrSatan) {
+    nHighest = mrSatan;
     sHighest = "mrSatan";
   }
-  if (nHighest  < cell) {
-    nHighest  = cell;
+  if (nHighest < cell) {
+    nHighest = cell;
     sHighest = "cell";
   }
-  if (nHighest  < android18) {
-    nHighest  = android18;
+  if (nHighest < android18) {
+    nHighest = android18;
     sHighest = "android18";
   }
   getResults(sHighest);
@@ -180,25 +180,24 @@ function resetForm() {
 function getResults(sHighest) {
   switch (sHighest) {
     case "goku":
-      location = 'goku.html';
+      location = "goku.html";
       break;
     case "vegeta":
-      location = 'vegeta.html';
+      location = "vegeta.html";
       break;
     case "bulma":
-      location = 'bulma.html';
+      location = "bulma.html";
       break;
     case "mrSatan":
-      location = 'mrsatan.html';
+      location = "mrsatan.html";
       break;
     case "cell":
-      location = 'cell.html';
+      location = "cell.html";
       break;
     case "android18":
-      location = 'android.html';
+      location = "android.html";
       break;
     default:
-      location = 'index.html';
+      location = "index.html";
   }
 }
-

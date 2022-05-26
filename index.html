@@ -1,175 +1,194 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href='https://fonts.googleapis.com/css?family=Lalezar' rel='stylesheet'>
-        <title>DBZ Character Quiz</title>
-          <link href="./index.css" type="text/css" rel="stylesheet">
-            <script type="text/javascript" src="./script.js"></script>   
-           <style>
-           
-           input[type=button], input[type=submit], input[type=reset] {
-              background-color: #ffa500;
-              border: none;
-              color: white;
-              padding: 16px 32px;
-              text-decoration: none;
-              margin: 4px 2px;
-              cursor: pointer;
-            }
-            </style>
-            
-    </head>
 
-    <body>
-<!-- nav bar-->
-    <div id="wrap">
-    </div>
-       <ul id="nav">
-      <li><a href="#Home">Home</a></li>
-      <li><a href="#Quiz">Quiz</a></li>
-    </ul>
-    <div id="content">
-    </div>
-    <!-- nav bar end --> 
-    <div class="contentarea">
-        <div class="wrapper">
-    <section id="Home">
-      <center>
-       <img src="dbzbannerlogo.jpeg" width="704" height="440">
-      </center>
-    </section>
-<br>
-<br>
-<br>
-<br>
-   
-            <section id="Quiz">
-               <center><h1>Which DBZ Character Are You?</h1></center> 
-    
- <!-- QUESTION ONE -->
- 
-  <form>
-    <fieldset id="group1"><img src="./DB1.png" width="50" height="50">
-    <strong>What's your weapon of choice?</strong><br>
-    <input type="radio" value="value1" name="group1">Kamehameha!<br>
-    <input type="radio" value="value2" name="group1">Strength and technique.<br>
-    <input type="radio" value="value3" name="group1">Capsule Corp technology.<br>
-    <input type="radio" value="value4" name="group1">My fearsome reputation!<br>
-    <input type="radio" value="value5" name="group1">I am the perfect weapon.<br>
-    <input type="radio" value="value6" name="group1">Destructo discs.
-  </fieldset>
- </form>
- <!-- QUESTION ONE END -->
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Lalezar' rel='stylesheet'>
+  <title>DBZ Character Quiz</title>
+  <link href="./index.css" type="text/css" rel="stylesheet">
+  <style>
+    input[type=button],
+    input[type=submit],
+    input[type=reset] {
+      background-color: #ffa500;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+  </style>
 
- <br>
+</head>
 
- <!-- QUESTION TWO -->
- <form>
-  <fieldset id="group2"><img src="./DB2.png" width="50" height="50">
-    <strong>Which word describes you as a person?</strong><br>
-    <input type="radio" value="value1" name="group2">Selfless<br>
-    <input type="radio" value="value2" name="group2">Passionate<br>
-    <input type="radio" value="value3" name="group2">Intelligent<br>
-    <input type="radio" value="value4" name="group2">Charismatic<br>
-    <input type="radio" value="value5" name="group2">Machiavellian<br>
-    <input type="radio" value="value6" name="group2">Collected
-  </fieldset>
- </form>
-  <!-- QUESTION TWO END -->
+<body id="Home">
+  <!-- nav bar-->
+  <div id="wrap">
+  </div>
+  <ul id="nav">
+    <li><a href="#Home">Home</a></li>
+    <li><a href="#Quiz">Quiz</a></li>
+  </ul>
+  <div id="content">
+  </div>
+  <!-- nav bar end -->
+  <div class="contentarea">
+    <div class="wrapper">
+      <section>
+        <center>
+          <img src="dbzbannerlogo.jpeg" width="704" height="440">
+        </center>
+      </section>
+      <br>
+      <br>
+      <br>
+      <br>
 
- <br>
+      <section id="Quiz">
+        <center>
+          <h1>Which DBZ Character Are You?</h1>
+        </center>
 
-  <!-- QUESTION THREE -->
- <form>
-  <fieldset id="group3"><img src="./DB3.png" width="50" height="50">
-    <strong>What would be your superpower?</strong><br>
-    <input type="radio" value="value1" name="group3">My love and devotion for my family and friends make me stronger.<br>
-    <input type="radio" value="value2" name="group3">The universe's strongest fighter.<br>
-    <input type="radio" value="value3" name="group3">Inventing cutting edge technology to assist my friends!<br>
-    <input type="radio" value="value4" name="group3">Being the world's savior that everyone can depend on to get the job done.<br>
-    <input type="radio" value="value5" name="group3">I'm already perfect-- what more do I need?<br>
-    <input type="radio" value="value6" name="group3">Unlimited stamina to work tirelessly to accomplish my goals.
-  </fieldset>
- </form>
-  <!-- QUESTION THREE END -->
+        <!-- QUESTION ONE -->
 
- <br>
+        <form>
+          <fieldset id="group1"><img src="./DB1.png" width="50" height="50">
+            <strong>What's your weapon of choice?</strong><br>
+            <input type="radio" value="value1" name="group1" id="q1a1">Kamehameha!<br>
+            <input type="radio" value="value2" name="group1" id="q1a2">Strength and technique.<br>
+            <input type="radio" value="value3" name="group1" id="q1a3">Capsule Corp technology.<br>
+            <input type="radio" value="value4" name="group1" id="q1a4">My fearsome reputation!<br>
+            <input type="radio" value="value5" name="group1" id="q1a5">I am the perfect weapon.<br>
+            <input type="radio" value="value6" name="group1" id="q1a6">Destructo discs.
+          </fieldset>
+        </form>
+        <!-- QUESTION ONE END -->
 
-  <!-- QUESTION FOUR -->
- <form>
-  <fieldset id="group4"><img src="./DB4.png" width="50" height="50">
-    <strong>Your rival is choking on a skittle. What's your plan of action?</strong><br>
-    <input type="radio" value="value1" name="group4">Perform the Heimlich maneuver and save him!<br>
-    <input type="radio" value="value2" name="group4">Laugh.<br>
-    <input type="radio" value="value3" name="group4">Dig in my bag of gadgets for the right device to save him!<br>
-    <input type="radio" value="value4" name="group4">Call others to help him!<br>
-    <input type="radio" value="value5" name="group4">Choke him out faster.<br>
-    <input type="radio" value="value6" name="group4">Can he afford my help or not?
-  </fieldset>
- </form>
-  <!-- QUESTION FOUR END -->
+        <br>
 
- <br>
+        <!-- QUESTION TWO -->
+        <form>
+          <fieldset id="group2"><img src="./DB2.png" width="50" height="50">
+            <strong>Which word describes you as a person?</strong><br>
+            <input type="radio" value="value1" name="group2" id="q2a1">Selfless<br>
+            <input type="radio" value="value2" name="group2" id="q2a2">Passionate<br>
+            <input type="radio" value="value3" name="group2" id="q2a3">Intelligent<br>
+            <input type="radio" value="value4" name="group2" id="q2a4">Charismatic<br>
+            <input type="radio" value="value5" name="group2" id="q2a5">Machiavellian<br>
+            <input type="radio" value="value6" name="group2" id="q2a6">Collected
+          </fieldset>
+        </form>
+        <!-- QUESTION TWO END -->
 
-  <!-- QUESTION FIVE -->
- <form>
- <fieldset id="group5"><img src="./DB5.png" width="50" height="50">
-   <strong>An enemy finds you in the city. You will:</strong><br>
-    <input type="radio" value="value1" name="group5">Lead them to an uninhabited island away from society and take them on.<br>
-    <input type="radio" value="value2" name="group5">Take them on where they stand.<br>
-    <input type="radio" value="value3" name="group5">Form a plan with friends and create devices to guarantee our team's victory!<br>
-    <input type="radio" value="value4" name="group5">Let others deal with the threat and casually come in afterwards to accept credit for a job well done( someone has to do it!)<br>
-    <input type="radio" value="value5" name="group5">.. is it supposed to make a difference where I am?<br>
-    <input type="radio" value="value6" name="group5">Neutralize the threat before they know what hit them.
-  </fieldset>
- </form>
-  <!-- QUESTION FIVE END -->
+        <br>
+
+        <!-- QUESTION THREE -->
+        <form>
+          <fieldset id="group3"><img src="./DB3.png" width="50" height="50">
+            <strong>What would be your superpower?</strong><br>
+            <input type="radio" value="value1" name="group3" id="q3a1">My love and devotion for my family and friends
+            make me stronger.<br>
+            <input type="radio" value="value2" name="group3" id="q3a2">The universe's strongest fighter.<br>
+            <input type="radio" value="value3" name="group3" id="q3a3">Inventing cutting edge technology to assist my
+            friends!<br>
+            <input type="radio" value="value4" name="group3" id="q3a4">Being the world's savior that everyone can depend
+            on to get the job done.<br>
+            <input type="radio" value="value5" name="group3" id="q3a5">I'm already perfect-- what more do I need?<br>
+            <input type="radio" value="value6" name="group3" id="q3a6">Unlimited stamina to work tirelessly to
+            accomplish my goals.
+          </fieldset>
+        </form>
+        <!-- QUESTION THREE END -->
+
+        <br>
+
+        <!-- QUESTION FOUR -->
+        <form>
+          <fieldset id="group4"><img src="./DB4.png" width="50" height="50">
+            <strong>Your rival is choking on a skittle. What's your plan of action?</strong><br>
+            <input type="radio" value="value1" name="group4" id="q4a1">Perform the Heimlich maneuver and save him!<br>
+            <input type="radio" value="value2" name="group4" id="q4a2">Laugh.<br>
+            <input type="radio" value="value3" name="group4" id="q4a3">Dig in my bag of gadgets for the right device to
+            save him!<br>
+            <input type="radio" value="value4" name="group4" id="q4a4">Call others to help him!<br>
+            <input type="radio" value="value5" name="group4" id="q4a5">Choke him out faster.<br>
+            <input type="radio" value="value6" name="group4" id="q4a6">Can he afford my help or not?
+          </fieldset>
+        </form>
+        <!-- QUESTION FOUR END -->
+
+        <br>
+
+        <!-- QUESTION FIVE -->
+        <form>
+          <fieldset id="group5"><img src="./DB5.png" width="50" height="50">
+            <strong>An enemy finds you in the city. You will:</strong><br>
+            <input type="radio" value="value1" name="group5" id="q5a1">Lead them to an uninhabited island away from
+            society and take them on.<br>
+            <input type="radio" value="value2" name="group5" id="q5a2">Take them on where they stand.<br>
+            <input type="radio" value="value3" name="group5" id="q5a3">Form a plan with friends and create devices to
+            guarantee our team's victory!<br>
+            <input type="radio" value="value4" name="group5" id="q5a4">Let others deal with the threat and casually come
+            in afterwards to accept credit for a job well done( someone has to do it!)<br>
+            <input type="radio" value="value5" name="group5" id="q5a5">.. is it supposed to make a difference where I
+            am?<br>
+            <input type="radio" value="value6" name="group5" id="q5a6">Neutralize the threat before they know what hit
+            them.
+          </fieldset>
+        </form>
+        <!-- QUESTION FIVE END -->
 
 
- <br>
+        <br>
 
-  <!-- QUESTION SIX -->
- <form>
-  <fieldset id="group6"><img src="./DB6.png" width="50" height="50">
-    <strong>Oh no, your enemy throws his strongest attack at you! What do you do?</strong><br>
-    <input type="radio" value="value1" name="group6">Try to reflect it to the sky.<br>
-    <input type="radio" value="value2" name="group6">Throw my strongest attack at it.<br>
-    <input type="radio" value="value3" name="group6">My technological creations can counter any challenge they throw at me!<br>
-    <input type="radio" value="value4" name="group6">Deftly avoid direct attacks while possibly begging for mercy.<br>
-    <input type="radio" value="value5" name="group6">Child's play-- let my mini soldiers handle these weaklings.<br>
-    <input type="radio" value="value6" name="group6">Meet the attack head-on: no pain, no gain.
-  </fieldset>
- </form>
-  <!-- QUESTION SIX END -->
+        <!-- QUESTION SIX -->
+        <form>
+          <fieldset id="group6"><img src="./DB6.png" width="50" height="50">
+            <strong>Oh no, your enemy throws his strongest attack at you! What do you do?</strong><br>
+            <input type="radio" value="value1" name="group6" id="q6a1">Try to reflect it to the sky.<br>
+            <input type="radio" value="value2" name="group6" id="q6a2">Throw my strongest attack at it.<br>
+            <input type="radio" value="value3" name="group6" id="q6a3">My technological creations can counter any
+            challenge they throw at me!<br>
+            <input type="radio" value="value4" name="group6" id="q6a4">Deftly avoid direct attacks while possibly
+            begging for mercy.<br>
+            <input type="radio" value="value5" name="group6" id="q6a5">Child's play-- let my mini soldiers handle these
+            weaklings.<br>
+            <input type="radio" value="value6" name="group6" id="q6a6">Meet the attack head-on: no pain, no gain.
+          </fieldset>
+        </form>
+        <!-- QUESTION SIX END -->
 
- <br>
+        <br>
 
-  <!-- QUESTION SEVEN -->
- <form>
-  <fieldset id="group7"><img src="./DB7.png" width="50" height="50">
-    <strong>Finally, you have collected all seven dragon balls. You: </strong><br>
-    <input type="radio" value="value1" name="group7">Give my wish to someone in need.<br>
-    <input type="radio" value="value2" name="group7">Wish for more power.<br>
-    <input type="radio" value="value3" name="group7">Wish for more knowledge.<br>
-    <input type="radio" value="value4" name="group7">Wish for more admiration and respect as the world's strongest martial arts champion.<br>
-    <input type="radio" value="value5" name="group7">Pathetic, I have no interest in cheap parlor tricks.<br>
-    <input type="radio" value="value6" name="group7">Wish for the perfect gift for my loved one.
-  </fieldset>
- </form>
+        <!-- QUESTION SEVEN -->
+        <form>
+          <fieldset id="group7"><img src="./DB7.png" width="50" height="50">
+            <strong>Finally, you have collected all seven dragon balls. You: </strong><br>
+            <input type="radio" value="value1" name="group7" id="q7a1">Give my wish to someone in need.<br>
+            <input type="radio" value="value2" name="group7" id="q7a2">Wish for more power.<br>
+            <input type="radio" value="value3" name="group7" id="q7a3">Wish for more knowledge.<br>
+            <input type="radio" value="value4" name="group7" id="q7a4">Wish for more admiration and respect as the
+            world's strongest martial arts champion.<br>
+            <input type="radio" value="value5" name="group7" id="q7a5">Pathetic, I have no interest in cheap parlor
+            tricks.<br>
+            <input type="radio" value="value6" name="group7" id="q7a6">Wish for the perfect gift for my loved one.
+          </fieldset>
+        </form>
 
- <!-- QUESTION SEVEN END -->
+        <!-- QUESTION SEVEN END -->
 
- <br>
- <center> 
-   <input type="reset" value="RESET">
-   <input type="submit" value="SUBMIT">
- </center>
+        <br>
+        <center>
+          <input type="reset" value="RESET" id="resetForm">
+          <input type="submit" value="SUBMIT" id="compute">
+        </center>
 
- <br>
- <br>
-           
- </section>
- </main>
+        <br>
+        <br>
 
-    </body>
+      </section>
+      </main>
+      <script src="script.js"></script>
+</body>
+
 </html>
