@@ -183,10 +183,10 @@ function getResults(sHighest) {
       location = 'goku.html';
       break;
     case "vegeta":
-      location = 'vegata.html';
+      location = 'vegeta.html';
       break;
     case "bulma":
-      location = 'bulmaclear.html';
+      location = 'bulma.html';
       break;
     case "mrSatan":
       location = 'mrsatan.html';
@@ -198,7 +198,7 @@ function getResults(sHighest) {
       location = 'android.html';
       break;
     default:
-      location = "index.html";
+      location = 'index.html';
   }
 }
 
