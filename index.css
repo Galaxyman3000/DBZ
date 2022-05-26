@@ -1,4 +1,24 @@
 
+body {
+    background-color: lightblue;
+    color: black;
+    font-size: 35px;
+    font-family: Lalezar, sans-serif;
+  }
+  
+  h1 {
+    background-color: black;
+    color: white;
+  }
+  
+  div {
+    background-color: lightblue;
+    color: black;
+  }
+  
+
+
+
 <!-- NAV BAR -->
 body {
     margin: 0;
@@ -6,13 +26,13 @@ body {
     text-align: justify;
     font-family: Lalezar, sans-serif;
     font-size: 45px;
-    background-color: black;
+    background-color: 
 
 }
 
 * {
     margin: 0 auto;
-}
+} 
 
 #wrap {
     height: 150px;
@@ -97,19 +117,5 @@ input[type='radio']:checked:after {
   visibility: visible;
   border: 1px solid white;
 }
-<!-- RADIO BUTTON END ==>
+<!-- RADIO BUTTON END -->
 
-<!-- container code -->
-.flex-container {
-    display: flex;
-}
-
-.flex-child {
-    flex: 1;
-    border: 2px solid yellow;
-}  
-
-.flex-child:first-child {
-    margin-right: 20px;
-} 
-<!-- container code end -->
