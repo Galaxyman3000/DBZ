@@ -180,22 +180,22 @@ function resetForm() {
 function getResults(sHighest) {
   switch (sHighest) {
     case "goku":
-      console.log("You are Goku");
+      location = 'goku.html';
       break;
     case "vegeta":
-      console.log("You are Vegeta");
+      location = 'vegata.html';
       break;
     case "bulma":
-      console.log("You are Bulma");
+      location = 'bulme.html';
       break;
     case "mrSatan":
-      console.log("You are Mr. Satan");
+      location = 'mrSatan.html';
       break;
     case "cell":
-      console.log("You are Cell");
+      location = 'cell.html';
       break;
     case "android18":
-      console.log("You are Android 18");
+      location = 'android18.html';
       break;
     default:
       location = "index.html";
