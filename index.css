@@ -4,6 +4,7 @@ body {
     color: black;
     font-size: 35px;
     font-family: Lalezar, sans-serif;
+    
   }
   
   h1 {
@@ -14,6 +15,7 @@ body {
   div {
     background-color: lightblue;
     color: black;
+    height: 500vh;
   }
   
 
@@ -26,7 +28,7 @@ body {
     text-align: justify;
     font-family: Lalezar, sans-serif;
     font-size: 45px;
-    background-color: 
+    background-color: black;
 
 }
 
@@ -39,6 +41,7 @@ body {
     background: url(./image0.jpeg) no-repeat center;
     text-align: center;
     background-color: black;
+
 }
 
 #nav {
@@ -48,8 +51,8 @@ body {
     text-align: center;
     list-style: none;
     background-color: black;
-    border-bottom: 1px solid #ccc;
-    border-top: 1px solid #ccc;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -82,8 +85,8 @@ body {
 #content {
     padding: 0 25px 25px;
     width: 500x;
-    height: 25px;
-    background-color: #FFF;
+    height: 20px;
+    background-color: lightblue;
 }
 
 <!-- NAV BAR END -->
@@ -117,5 +120,5 @@ input[type='radio']:checked:after {
   visibility: visible;
   border: 1px solid white;
 }
-<!-- RADIO BUTTON END -->
+<!-- RADIO BUTTON END ==>
 
