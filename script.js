@@ -186,16 +186,16 @@ function getResults(sHighest) {
       location = 'vegata.html';
       break;
     case "bulma":
-      location = 'bulme.html';
+      location = 'bulmaclear.html';
       break;
     case "mrSatan":
-      location = 'mrSatan.html';
+      location = 'mrsatan.html';
       break;
     case "cell":
       location = 'cell.html';
       break;
     case "android18":
-      location = 'android18.html';
+      location = 'android.html';
       break;
     default:
       location = "index.html";
